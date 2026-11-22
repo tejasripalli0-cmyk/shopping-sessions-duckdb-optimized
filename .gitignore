@@ -1,0 +1,32 @@
+﻿# Python virtual environment
+.venv/
+venv/
+
+# Generated datasets and official answers
+dev/
+dev-answer/
+
+# Local benchmark and generated outputs
+results/
+
+# Local generator and original backup
+generator/
+backup_original_pipeline/
+
+# Python cache
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# DuckDB and generated data
+*.duckdb
+*.parquet
+
+# Environment and secrets
+.env
+.env.*
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
